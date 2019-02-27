@@ -1,0 +1,18 @@
+{
+  "ext-sslit": {
+    "filteredProducts": "The list of SSL/TLS certificates available for order. Run the `plesk ext sslit --product -list` command to get all available certificates and their states.",
+    "orderAutoProcessingInterval": "Determines how often the SSL It! extension tries to automatically refresh the state of the placed certificate order.",
+    "check-availability-max-attempts": "The maximum number of attempts to check if a domain is accessible via HTTP. The check is required for securing the domains and subdomains that are created with the \"Secure the domain with Let's Encrypt\" option enabled.",
+    "check-availability-delay": "The wait time in seconds between attempts to check if a domain is accessible via HTTP. The check is required for securing the domains and subdomains that are created with the \"Secure the domain with Let's Encrypt\" option enabled.",
+    "check-availability-timeout": "The timeout in seconds for checking if a domain is accessible via HTTP. If within the time defined by check-availability-timeout, no response code is received, the domain is considered to be unavailable. The check is required for securing the domains and subdomains that are created with the \"Secure the domain with Let's Encrypt\" option enabled.",
+    "check-domain-cert-authority": "If set to false, the SSL It! extension will replace only self-signed and expired SSL/TLS certificates. If set to true, the extension will also replace SSL/TLS certificates that are not trusted by any of the root certificates in the trusted CA Root Certificates bundle (see the verify setting). Note: The `check-domain-cert-authority` setting works only if the “Keep websites secured with free SSL certificate” option is enabled.",
+    "renew-before-expiration": "The number of days before expiration when the certificate is scheduled for auto-renewal.",
+    "send-notifications-interval": "Determines how often the SSL It! extension sends you notifications about the extension-related events (for example, a domain was secured with a certificate, or a certificate was renewed). By default, the extension sends you one email per day informing about events that occurred since the previous email was sent. To receive a separate email notification about each event right after it occurs, set this setting to 0.",
+    "dns-challenge-confirmation-interval": "Determines how often the SSL It! extension tries to automatically pass the started DNS challenge (for example, to finish issuing a Let's Encrypt wildcard certificate).",
+    "timeout": "The time limit (in seconds) for sending requests to issue an SSL/TLS certificate to the CA server. Helps avoid long wait times if there are issues with the connection or the CA server itself. Accepts the following values: null (default HTTP timeout values), positive integers (we recommend 30 seconds), and 0 (no timeout, not recommended)."
+  },
+  "ext-letsencrypt": {
+    "key-algorithm": "OpenSSL key type. Can be RSA or ECDSA",
+    "ecdsa-curve-name": "Curve name used in Elliptic curve cryptography (ECC) for public/private key operations. The setting accepts the following values: prime256v1 (NIST P-256) and secp384r1 (NIST P-384)."
+  }
+}
