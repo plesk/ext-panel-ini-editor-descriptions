@@ -8,9 +8,7 @@ in missing descriptions of Panel.ini Editor settings.
 By default, the `panel.ini file` has a number of preconfigured settings with useful comments in front of each section. 
 It is sufficient to get a brief grasp of basic `panel.ini` settings but not enough for something more challenging. 
 
-<p align="center">
-   ![alt text](https://github.com/Eevee-chan/ext-panel-ini-editor-descriptions/blob/master/Img/1.bmp)
-</p>
+![alt text](https://github.com/Eevee-chan/ext-panel-ini-editor-descriptions/blob/master/Img/1.bmp)
 
 So, in Panel.ini Editor 3.1.0, we have added the "Description" column so that each `panel.ini` setting can now have a description. 
 Each setting can, but few have…
