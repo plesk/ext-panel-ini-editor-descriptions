@@ -8,6 +8,8 @@ in missing descriptions of Panel.ini Editor settings.
 By default, the `panel.ini file` has a number of preconfigured settings with useful comments in front of each section. 
 It is sufficient to get a brief grasp of basic `panel.ini` settings but not enough for something more challenging. 
 
+![alt text](https://github.com/Eevee-chan/ext-panel-ini-editor-descriptions/blob/master/Img/1.bmp)
+
 So, in Panel.ini Editor 3.1.0, we have added the "Description" column so that each `panel.ini` setting can now have a description. 
 Each setting can, but few have…
 
@@ -32,28 +34,30 @@ However, if you feel that your descriptions are too good to keep to yourself, yo
         For example, if you want to add descriptions in German and no one has created the JSON file for the German locale yet, create `de-DE.json` and edit it.
 3. Add descriptions complying with the JSON file structure:
 
-      ```json
-        {
-          "section1": {
-            "setting1": "description",
-            "setting2": "description"
-          },
-          " section2": {
-            "setting1": "description"
-          }
-        }
-      ```
+    ````json
+    {
+      "section1": {
+        "setting1": "description",
+        "setting2": "description"
+      },
+      " section2": {
+        "setting1": "description"
+      }
+    }
+    ````
 
-      For example, if you want to add a description for the `allowedIPs` setting,
+    For example, if you want to add a description for the `allowedIPs` setting,
         
-      then the JSON entry will look like this:        
+    then the JSON entry will look like this:        
 
-      ```json
-          "api": {
-            "allowedIPs": "description"
-          }
-        }
-     ```
+    ````json
+    {
+      "api": {
+        "allowedIPs": "description"
+      }
+    }
+    ````
+
 4. Commit the changes to your branch and then create a pull request to the [ext-panel-ini-editor-descriptions repository](https://github.com/plesk/ext-panel-ini-editor-descriptions).
 
 ## What’s Next?
