@@ -21,6 +21,8 @@ We added descriptions for a number of useful settings, but filling in each descr
 
 You can edit descriptions right inside Panel.ini Editor. Type whatever you like, because these descriptions are saved on your server only.
 
+![alt text](https://github.com/Eevee-chan/ext-panel-ini-editor-descriptions/blob/master/Img/2.bmp)
+
 However, if you feel that your descriptions are too good to keep to yourself, you can share them with other Panel.Ini Editor users (we would be really grateful if you do!).
 
 ## How do I make my descriptions available to other users?
@@ -47,6 +49,8 @@ However, if you feel that your descriptions are too good to keep to yourself, yo
     ````
 
     For example, if you want to add a description for the `allowedIPs` setting,
+    
+    ![alt text](https://github.com/Eevee-chan/ext-panel-ini-editor-descriptions/blob/master/Img/3.bmp)
         
     then the JSON entry will look like this:        
 
