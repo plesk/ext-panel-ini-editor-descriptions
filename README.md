@@ -19,7 +19,7 @@ We added descriptions for a number of useful settings, but filling in each descr
 
 ## Got it. How can I fill in descriptions myself?
 
-You can edit descriptions right inside Panel.ini Editor. Type whatever you like, because these descriptions are saved on your server only.
+In Plesk 17.9, you can edit descriptions right inside Panel.ini Editor. Type whatever you like, because these descriptions are saved on your server only.
 
 ![alt text](https://github.com/Eevee-chan/ext-panel-ini-editor-descriptions/blob/master/Img/2.bmp)
 
