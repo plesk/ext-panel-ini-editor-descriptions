@@ -1,4 +1,7 @@
 {
+  "debug" : {
+    "enabled": "Activer le mode débogage (ne pas utiliser dans un environnement de production)",  
+  },
   "ext-sslit" : {
     "filteredProducts": "La liste des certificats SSL/TLS disponibles à la commande. Exécutez la commande `plesk ext sslit --product -list` pour obtenir tous les certificats disponibles et leur état",
     "orderAutoProcessingInterval": "Détermine la fréquence à laquelle l'extension SSL It ! essaie de rafraîchir automatiquement l'état de la commande de certificat passée.",
