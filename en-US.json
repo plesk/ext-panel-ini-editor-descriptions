@@ -12,7 +12,21 @@
     "timeout": "The time limit (in seconds) for sending requests to issue an SSL/TLS certificate to the CA server. Helps avoid long wait times if there are issues with the connection or the CA server itself. Accepts the following values: null (default HTTP timeout values), positive integers (we recommend 30 seconds), and 0 (no timeout, not recommended)."
   },
   "ext-letsencrypt": {
-    "key-algorithm": "OpenSSL key type. Can be RSA or ECDSA",
+    "key-algorithm": "OpenSSL key type. Can be RSA or ECDSA.",
     "ecdsa-curve-name": "Curve name used in Elliptic curve cryptography (ECC) for public/private key operations. The setting accepts the following values: prime256v1 (NIST P-256) and secp384r1 (NIST P-384)."
-  }
+  },
+  "api": {
+    "enabled": "Allows or prohibits all connections via Plesk API.",
+    "allowedIPs": "Allows connections via Plesk API only from specific IP addresses. Accepts one or more IP addresses separated by commas or whitespace characters.",
+  },
+  "aps": {
+    "catalogsCustomization": "Allows or prohibits customization of the application catalog.",
+    "catalogUrl": "Customizes the URL of the application catalog.",
+  },
+  "databaseManagement": {
+    "features.roles.mysql.readWrite": "The default set of privileges for database users with the Read and Write role. Changing the set affects only new database users but not the existing ones. Database users can still select privileges that are not listed here unless you prohibit these privileges in features.privileges.mysql.dataAccess or features.privileges.mysql.structureAccess.",
+    "features.roles.mysql.readOnly": "The default set of privileges for database users with the Read Only role. Changing the set affects only new database users but not the existing ones. Database users can still select privileges that are not listed here unless you prohibit these privileges in features.privileges.mysql.dataAccess or features.privileges.mysql.structureAccess.",
+    "features.roles.mysql.writeOnly": "The default set of privileges for database users with the Write Only role. Changing the set affects only new database users but not the existing ones. Database users can still select privileges that are not listed here unless you prohibit these privileges in features.privileges.mysql.dataAccess or features.privileges.mysql.structureAccess.",
+    "features.privileges.mysql.dataAccess": "Lists Data Access privileges allowed for all database users and be shown in Plesk (Websites & Domains > Databases > User Management). Privileges that are not in this list will not be shown and database users will not be able to grant them.",
+    "features.privileges.mysql.structureAccess": "Lists Structure Access privileges allowed for all database users (regardless of their role). The listed privileges will be shown in Plesk (Websites & Domains > Databases > User Management). Privileges that are not in this list will not be shown and database users will not be able to grant them.",
 }
