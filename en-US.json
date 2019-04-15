@@ -32,4 +32,8 @@
     "features.roles.mssql.readWrite": "The list of Microsoft SQL fixed-database roles whose permissions are allowed for the Read and Write role. Changing Microsoft SQL fixed-database roles consequently changes allowed permissions, even though the permissions themselves are not displayed in Plesk (Websites & Domains > Databases > User Management). Changing the list affects only new database users but not the existing ones.",
     "features.roles.mssql.readOnly": "The list of Microsoft SQL fixed-database roles whose permissions are allowed for the Read Only role. Changing Microsoft SQL fixed-database roles consequently changes allowed permissions, even though the permissions themselves are not displayed in Plesk (Websites & Domains > Databases > User Management). Changing the list affects only new database users but not the existing ones.",
     "features.roles.mssql.writeOnly": "The list of Microsoft SQL fixed-database roles whose permissions are allowed for the Write Only role. Changing Microsoft SQL fixed-database roles consequently changes allowed permissions, even though the permissions themselves are not displayed in Plesk (Websites & Domains > Databases > User Management). Changing the list affects only new database users but not the existing ones.",
-}
+  },
+  "ext-social-login": {
+    "google.enabled": "Disable or enable logging in to Plesk with Google. When disabled, the Google icon is removed from the Plesk login screen.",
+    "facebook.enabled": "Disable or enable logging in to Plesk with Facebook. When disabled, the Facebook icon is removed from the Plesk login screen.",
+    "github.enabled": "Disable or enable logging in to Plesk with GitHub. When disabled, the GitHub icon is removed from the Plesk login screen.",
