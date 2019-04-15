@@ -56,7 +56,7 @@
     "contextAds": "Hides and shows extensions promos."
   },
   "security": {  
-    "sameOriginOnly": "Protects Plesk from clickjacking. When enabled, prevents Plesk pages from opening within iframes on other websites."
+    "sameOriginOnly": "Protects Plesk from clickjacking. When enabled, prevents Plesk pages from opening within iframes on other websites.",
     "trustedRedirectHosts": "Protects Plesk against open redirect. If you have not set up automatic logging in to Plesk, remove the default * to set an empty line as a value. If you have set up automatic logging in to Plesk, add one or more hostnames to which URL redirection via the failure_redirect_url parameter will be allowed."
   },
   "facebook": {  
@@ -66,4 +66,7 @@
     "showFollowLink": "Shows or hides the Twitter Follow button."
   },
   "ext-rest-api": {  
-    "cors.enabled": "Have REST API allow or forbid cross-origin resource sharing (CORS). Disabled CORS enhances security."
+    "cors.enabled": "Allows or forbids REST API cross-origin resource sharing (CORS). Disabled CORS enhances security.",
+    "cors.origin": "Allows cross-origin REST API requests from the specified domains only.",
+    "cors.methods": "Allows cross-origin REST API requests with the specified methods only."
+  },
