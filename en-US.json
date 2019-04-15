@@ -45,4 +45,10 @@
     "systemAdmin": "Disables or enables logging in to Plesk with the root or administrator credentials."
   },
   "extensions": {
-    "buyUrl": "Specify the URL of your online store to bring customers there (instead of Plesk Online Store) after they click the \"Buy Now\" button and other upsell links in the Extensions Catalog."
+    "buyUrl": "Resell Plesk extensions from your online store by specifying its URL. It will bring customers to your store (instead of Plesk Online Store) after they click the “Buy Now” button and other upsell links in the Extensions Catalog."
+  },
+  "updates": {
+    "systemUpdatesTool": "(Plesk for Linux) Disables or enables system updates."
+    "safeUpdatesManagement": "(Plesk for Linux) Hides and shows the \"Enable safe updates for system packages\" option in Plesk."
+  },
+  "ext-catalog": {  
