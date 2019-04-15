@@ -18,6 +18,7 @@
   "api": {
     "enabled": "Allows or prohibits all connections via Plesk API.",
     "allowedIPs": "Allows connections via Plesk API only from specific IP addresses. Accepts one or more IP addresses separated by commas or whitespace characters.",
+    "allowPlainHttpAccess": "Allows or prohibits REST API to accept requests sent via plain HTTP.",  
   },
   "aps": {
     "catalogsCustomization": "Allows or prohibits customization of the application catalog.",
@@ -64,3 +65,5 @@
   "twitter": {  
     "showFollowLink": "Shows or hides the Twitter Follow button."
   },
+  "ext-rest-api": {  
+    "cors.enabled": "Have REST API allow or forbid cross-origin resource sharing (CORS). Disabled CORS enhances security."
