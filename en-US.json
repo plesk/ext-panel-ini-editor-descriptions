@@ -53,8 +53,14 @@
   },
   "ext-catalog": {  
     "contextAds": "Hides and shows extensions promos."
-      },
+  },
   "security": {  
     "sameOriginOnly": "Protects Plesk from clickjacking. When enabled, prevents Plesk pages from opening within iframes on other websites."
     "trustedRedirectHosts": "Protects Plesk against open redirect. If you have not set up automatic logging in to Plesk, remove the default * to set an empty line as a value. If you have set up automatic logging in to Plesk, add one or more hostnames to which URL redirection via the failure_redirect_url parameter will be allowed."
-    
+  },
+  "facebook": {  
+    "showLikeLink": "Shows or hides the \"Join Us on Facebook\" link, which redirects to the Plesk Facebook group."
+  },
+  "twitter": {  
+    "showFollowLink": "Shows or hides the Twitter Follow button."
+  },
