@@ -49,7 +49,7 @@
     "buyUrl": "Resell Plesk extensions from your online store by specifying its URL. It will bring customers to your store (instead of Plesk Online Store) after they click the “Buy Now” button and other upsell links in the Extensions Catalog."
   },
   "updates": {
-    "systemUpdatesTool": "(Plesk for Linux) Disables or enables system updates."
+    "systemUpdatesTool": "(Plesk for Linux) Disables or enables system updates.",
     "safeUpdatesManagement": "(Plesk for Linux) Hides and shows the \"Enable safe updates for system packages\" option in Plesk."
   },
   "ext-catalog": {  
@@ -70,3 +70,12 @@
     "cors.origin": "Allows cross-origin REST API requests from the specified domains only.",
     "cors.methods": "Allows cross-origin REST API requests with the specified methods only."
   },
+  "rating": {  
+    "enabled": "Hides or shows the product rating widget, which allows administrators to give feedback on their Plesk user experience.",
+    "enabled": "Sets a number of days after which the product rating widget will be displayed. The widget allows administrators to give feedback on their Plesk user experience."
+  },
+  "webserver": {  
+    "nginxCacheEnabled": "Enables or disables nginx caching."
+  }
+}  
+  
