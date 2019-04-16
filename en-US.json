@@ -18,7 +18,7 @@
   "api": {
     "enabled": "Allows or prohibits all connections via Plesk API.",
     "allowedIPs": "Allows connections via Plesk API only from specific IP addresses. Accepts one or more IP addresses separated by commas or whitespace characters.",
-    "allowPlainHttpAccess": "Allows or prohibits REST API to accept requests sent via plain HTTP.",  
+    "allowPlainHttpAccess": "Allows or prohibits REST API to accept requests sent via plain HTTP." 
   },
   "aps": {
     "catalogsCustomization": "Allows or prohibits customization of the application catalog.",
@@ -40,7 +40,7 @@
     "github.enabled": "Disables or enables logging in to Plesk with GitHub. When disabled, the GitHub icon is removed from the Plesk login screen.",
   },
   "ext-wp-toolkit": {
-    "enabled": "Disables or enables WordPress Toolkit in Plesk."
+    "enabled": "Disables or enables WordPress Toolkit."
   },
   "login": {
     "systemAdmin": "Disables or enables logging in to Plesk with the root or administrator credentials."
@@ -57,7 +57,7 @@
   },
   "security": {  
     "sameOriginOnly": "Protects Plesk from clickjacking. When enabled, prevents Plesk pages from opening within iframes on other websites.",
-    "trustedRedirectHosts": "Protects Plesk against open redirect. If you have not set up automatic logging in to Plesk, remove the default * to set an empty line as a value. If you have set up automatic logging in to Plesk, add one or more hostnames to which URL redirection via the failure_redirect_url parameter will be allowed."
+    "trustedRedirectHosts": "Protects Plesk against open redirect. If you have not set up automatic logging in to Plesk, delete the default * to set an empty line as a value. If you have set up automatic logging in to Plesk, delete the default * and add one or more hostnames to which URL redirection via the failure_redirect_url parameter will be allowed."
   },
   "facebook": {  
     "showLikeLink": "Shows or hides the \"Join Us on Facebook\" link, which redirects to the Plesk Facebook group."
@@ -67,15 +67,15 @@
   },
   "ext-rest-api": {  
     "cors.enabled": "Allows or forbids REST API cross-origin resource sharing (CORS). Disabled CORS enhances security.",
-    "cors.origin": "Allows cross-origin REST API requests from the specified domains only.",
-    "cors.methods": "Allows cross-origin REST API requests with the specified methods only."
+    "cors.origin": "Allows cross-origin REST API requests (CORS) from the specified domains only.",
+    "cors.methods": "Allows cross-origin REST API requests (CORS) with the specified methods only."
   },
   "rating": {  
-    "enabled": "Hides or shows the product rating widget, which allows administrators to give feedback on their Plesk user experience.",
-    "enabled": "Sets a number of days after which the product rating widget will be displayed. The widget allows administrators to give feedback on their Plesk user experience."
+    "enabled": "Hides or shows the product rating widget. Using the widget, administrators can give feedback on their Plesk user experience.",
+    "enabled": "Sets a number of days after which the product rating widget will be displayed. Using the widget, administrators can give feedback on their Plesk user experience."
   },
   "webserver": {  
-    "nginxCacheEnabled": "Enables or disables nginx caching."
+    "nginxCacheEnabled": "(Plesk for Linux) Enables or disables nginx caching."
   }
 }  
   
