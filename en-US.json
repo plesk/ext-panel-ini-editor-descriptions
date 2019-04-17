@@ -37,7 +37,7 @@
   "ext-social-login": {
     "google.enabled": "Disables or enables logging in to Plesk with Google. When disabled, the Google icon is removed from the Plesk login screen.",
     "facebook.enabled": "Disables or enables logging in to Plesk with Facebook. When disabled, the Facebook icon is removed from the Plesk login screen.",
-    "github.enabled": "Disables or enables logging in to Plesk with GitHub. When disabled, the GitHub icon is removed from the Plesk login screen.",
+    "github.enabled": "Disables or enables logging in to Plesk with GitHub. When disabled, the GitHub icon is removed from the Plesk login screen."
   },
   "ext-wp-toolkit": {
     "enabled": "Disables or enables WordPress Toolkit."
