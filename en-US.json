@@ -72,7 +72,7 @@
   },
   "rating": {  
     "enabled": "Hides or shows the product rating widget. Using the widget, administrators can give feedback on their Plesk user experience.",
-    "enabled": "Sets a number of days after which the product rating widget will be displayed. Using the widget, administrators can give feedback on their Plesk user experience."
+    "showAfterDays": "Sets a number of days after which the product rating widget will be displayed. Using the widget, administrators can give feedback on their Plesk user experience."
   },
   "webserver": {  
     "nginxCacheEnabled": "(Plesk for Linux) Enables or disables nginx caching."
