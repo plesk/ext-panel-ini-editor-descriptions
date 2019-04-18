@@ -12,7 +12,70 @@
     "timeout": "The time limit (in seconds) for sending requests to issue an SSL/TLS certificate to the CA server. Helps avoid long wait times if there are issues with the connection or the CA server itself. Accepts the following values: null (default HTTP timeout values), positive integers (we recommend 30 seconds), and 0 (no timeout, not recommended)."
   },
   "ext-letsencrypt": {
-    "key-algorithm": "OpenSSL key type. Can be RSA or ECDSA",
+    "key-algorithm": "OpenSSL key type. Can be RSA or ECDSA.",
     "ecdsa-curve-name": "Curve name used in Elliptic curve cryptography (ECC) for public/private key operations. The setting accepts the following values: prime256v1 (NIST P-256) and secp384r1 (NIST P-384)."
+  },
+  "api": {
+    "enabled": "Allows or prohibits all connections via Plesk API.",
+    "allowedIPs": "Allows connections via Plesk API only from specific IP addresses. Accepts one or more IP addresses separated by commas or whitespace characters.",
+    "allowPlainHttpAccess": "Allows or prohibits REST API to accept requests sent via plain HTTP." 
+  },
+  "aps": {
+    "catalogsCustomization": "Allows or prohibits customization of the application catalog.",
+    "catalogUrl": "Customizes the URL of the application catalog."
+  },
+  "databaseManagement": {
+    "features.roles.mysql.readWrite": "The default set of privileges for database users with the Read and Write role. Changing the set affects only new database users but not the existing ones. Plesk users can still select privileges that are not listed here unless you also omit these privileges in features.privileges.mysql.dataAccess or features.privileges.mysql.structureAccess.",
+    "features.roles.mysql.readOnly": "The default set of privileges for database users with the Read Only role. Changing the set affects only new database users but not the existing ones. Plesk users can still select privileges that are not listed here unless you also omit these privileges in features.privileges.mysql.dataAccess or features.privileges.mysql.structureAccess.",
+    "features.roles.mysql.writeOnly": "The default set of privileges for database users with the Write Only role. Changing the set affects only new database users but not the existing ones. Plesk users can still select privileges that are not listed here unless you also omit these privileges in features.privileges.mysql.dataAccess or features.privileges.mysql.structureAccess.",
+    "features.privileges.mysql.dataAccess": "The list of Data Access privileges shown in Plesk (Websites & Domains > Databases > User Management) and allowed to be selected. Privileges that are not in this list will not be shown and Plesk users will not be able to select them.",
+    "features.privileges.mysql.structureAccess": "The list of Structure Access privileges shown in Plesk (Websites & Domains > Databases > User Management) and allowed to be selected. Privileges that are not in this list will not be shown and Plesk users will not be able to select them.",
+    "features.roles.mssql.readWrite": "The list of Microsoft SQL fixed-database roles whose permissions are allowed for the Read and Write role. Changing Microsoft SQL fixed-database roles consequently changes allowed permissions, even though the permissions themselves are not displayed in Plesk (Websites & Domains > Databases > User Management). Changing the list affects only new database users but not the existing ones.",
+    "features.roles.mssql.readOnly": "The list of Microsoft SQL fixed-database roles whose permissions are allowed for the Read Only role. Changing Microsoft SQL fixed-database roles consequently changes allowed permissions, even though the permissions themselves are not displayed in Plesk (Websites & Domains > Databases > User Management). Changing the list affects only new database users but not the existing ones.",
+    "features.roles.mssql.writeOnly": "The list of Microsoft SQL fixed-database roles whose permissions are allowed for the Write Only role. Changing Microsoft SQL fixed-database roles consequently changes allowed permissions, even though the permissions themselves are not displayed in Plesk (Websites & Domains > Databases > User Management). Changing the list affects only new database users but not the existing ones."
+  },
+  "ext-social-login": {
+    "google.enabled": "Disables or enables logging in to Plesk with Google. When disabled, the Google icon is removed from the Plesk login screen.",
+    "facebook.enabled": "Disables or enables logging in to Plesk with Facebook. When disabled, the Facebook icon is removed from the Plesk login screen.",
+    "github.enabled": "Disables or enables logging in to Plesk with GitHub. When disabled, the GitHub icon is removed from the Plesk login screen."
+  },
+  "ext-wp-toolkit": {
+    "enabled": "Disables or enables WordPress Toolkit."
+  },
+  "login": {
+    "systemAdmin": "Disables or enables logging in to Plesk with the root or administrator credentials."
+  },
+  "extensions": {
+    "buyUrl": "Resell Plesk extensions from your online store by specifying its URL. It will bring customers to your store (instead of Plesk Online Store) after they click the “Buy Now” button and other upsell links in the Extensions Catalog."
+  },
+  "updates": {
+    "systemUpdatesTool": "(Plesk for Linux) Disables or enables system updates.",
+    "safeUpdatesManagement": "(Plesk for Linux) Hides and shows the \"Enable safe updates for system packages\" option in Plesk."
+  },
+  "ext-catalog": {  
+    "contextAds": "Hides and shows extensions promos."
+  },
+  "security": {  
+    "sameOriginOnly": "Protects Plesk from clickjacking. When enabled, prevents Plesk pages from opening within iframes on other websites.",
+    "trustedRedirectHosts": "Protects Plesk against open redirect. If you have not set up automatic logging in to Plesk, delete the default * to set an empty line as a value. If you have set up automatic logging in to Plesk, delete the default * and add one or more hostnames to which URL redirection via the failure_redirect_url parameter will be allowed."
+  },
+  "facebook": {  
+    "showLikeLink": "Shows or hides the \"Join Us on Facebook\" link, which redirects to the Plesk Facebook group."
+  },
+  "twitter": {  
+    "showFollowLink": "Shows or hides the Twitter Follow button."
+  },
+  "ext-rest-api": {  
+    "cors.enabled": "Allows or forbids REST API cross-origin resource sharing (CORS). Disabled CORS enhances security.",
+    "cors.origin": "Allows cross-origin REST API requests (CORS) from the specified domains only.",
+    "cors.methods": "Allows cross-origin REST API requests (CORS) with the specified methods only."
+  },
+  "rating": {  
+    "enabled": "Hides or shows the product rating widget. Using the widget, administrators can give feedback on their Plesk user experience.",
+    "showAfterDays": "Sets a number of days after which the product rating widget will be displayed. Using the widget, administrators can give feedback on their Plesk user experience."
+  },
+  "webserver": {  
+    "nginxCacheEnabled": "(Plesk for Linux) Enables or disables nginx caching."
   }
-}
+}  
+  
