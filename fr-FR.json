@@ -1,11 +1,11 @@
 {
-  "cli" : {
+  "cli": {
     "ignoreNonexistentOptions": "Ignorer les options inexistantes dans l'interface de ligne de commande"
   },
-  "debug" : {
+  "debug": {
     "enabled": "Activer le mode débogage (ne pas utiliser dans un environnement de production)"
   },
-  "ext-sslit" : {
+  "ext-sslit": {
     "filteredProducts": "La liste des certificats SSL/TLS disponibles à la commande. Exécutez la commande `plesk ext sslit --product -list` pour obtenir tous les certificats disponibles et leur état",
     "orderAutoProcessingInterval": "Détermine la fréquence à laquelle l'extension SSL It ! essaie de rafraîchir automatiquement l'état de la commande de certificat passée.",
     "check-availability-max-attempts": "Le nombre maximum de tentatives pour vérifier si un domaine est accessible via HTTP. La vérification est nécessaire pour sécuriser les domaines et sous-domaines créés avec l'option \"Secure the domain with Let's Encrypt\" activée",
@@ -28,12 +28,12 @@
     "url": "URL de la Documentation"
   },
   "locale": {
-    "showKeys": "Afficher les clés locales au lieu de la chaîne localisée (valeurs : off, on, long)" 
+    "showKeys": "Afficher les clés locales au lieu de la chaîne localisée (valeurs : off, on, long)"
   },
   "promos": {
     "enabled": "Désactiver les promotions d'autres produits"
   },
   "rating": {
     "enabled": "Masquer le dialogue de rétroaction avec la question pour évaluer le produit"
-  },
+  }
 }
