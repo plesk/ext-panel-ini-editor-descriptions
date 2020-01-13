@@ -5,7 +5,7 @@ in missing descriptions of Panel.ini Editor settings.
 
 ## What is Panel.Ini Editor?
 
-By default, the `panel.ini file` has a number of preconfigured settings with useful comments in front of each section. 
+By default, the `panel.ini` file has a number of preconfigured settings with useful comments in front of each section. 
 It is sufficient to get a brief grasp of basic `panel.ini` settings but not enough for something more challenging. 
 
 ![alt text](https://github.com/Eevee-chan/ext-panel-ini-editor-descriptions/blob/master/Img/1.bmp)
