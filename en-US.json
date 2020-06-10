@@ -12,6 +12,9 @@
     "timeout": "The time limit (in seconds) for sending requests to issue an SSL/TLS certificate to the CA server. Helps avoid long wait times if there are issues with the connection or the CA server itself. Accepts the following values: null (default HTTP timeout values), positive integers (we recommend 30 seconds), and 0 (no timeout, not recommended)."
   },
   "ext-letsencrypt": {
+    "renew-before-expiration" : "Number of days before certificate renewal.",
+    "log-requests" : "Log requests to the ACME server in the Plesk log.",
+    "send-notifications-interval" : "Determines how often the Let’s Encrypt extension can send you notifications.",
     "key-algorithm": "OpenSSL key type. Can be RSA or ECDSA.",
     "ecdsa-curve-name": "Curve name used in Elliptic curve cryptography (ECC) for public/private key operations. The setting accepts the following values: prime256v1 (NIST P-256) and secp384r1 (NIST P-384)."
   },
