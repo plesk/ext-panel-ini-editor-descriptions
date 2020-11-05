@@ -71,4 +71,4 @@ When Panel.ini Editor is updated, users will receive a bunch of new descriptions
 
 ## Acknowledgment 
 
-Our best contributors are:
+Our best contributors are: ChgoChad.
