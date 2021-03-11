@@ -95,7 +95,8 @@
     "showAfterDays": "Sets a number of days after which the product rating widget will be displayed. Using the widget, administrators can give feedback on their Plesk user experience."
   },
   "webserver": {  
-    "nginxCacheEnabled": "(Plesk for Linux) Enables or disables nginx caching."
+    "nginxCacheEnabled": "(Plesk for Linux) Enables or disables nginx caching.",
+    "xPoweredByHeader": "Hide or show X-Powered-By: PleskLin in header."
   }
 }  
   
