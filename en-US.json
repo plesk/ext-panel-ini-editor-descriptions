@@ -77,7 +77,7 @@
   },
   "security": {  
     "sameOriginOnly": "Protects Plesk from clickjacking. When enabled, prevents Plesk pages from opening within iframes on other websites.",
-    "trustedRedirectHosts": "Protects Plesk against open redirect. If you have not set up automatic logging in to Plesk, delete the default * to set an empty line as a value. If you have set up automatic logging in to Plesk, delete the default * and add one or more hostnames to which URL redirection via the failure_redirect_url parameter will be allowed."
+    "trustedRedirectHosts": "Protects Plesk against open redirect. If you have not set up automatic logging in to Plesk, keep the default empty line as a value. If you have set up automatic logging in to Plesk, specify one or more hostnames to allow URL redirection to them via the success_redirect_url and failure_redirect_url parameters."
   },
   "facebook": {  
     "showLikeLink": "Shows or hides the \"Join Us on Facebook\" link, which redirects to the Plesk Facebook group."
